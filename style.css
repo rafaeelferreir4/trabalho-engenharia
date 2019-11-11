@@ -1,10 +1,20 @@
 #map {
     display: flex;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
 }
-form {
+div {
     display: flex;
     justify-content: center;
     margin: 10px auto;
+}
+body {
+    background-color: grey;
+}
+button {
+    margin: 0 5px;
+    padding: 5px;
+}
+label {
+    color: white;
 }

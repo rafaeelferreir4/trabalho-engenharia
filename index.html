@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel='manifest' href='/manifest.json'>
     <title>Trabalho Engenharia</title>
 </head>
 <body>
-    <form>
-        <label for="lugar">Lugar:</label>
+    <div>
+        <label for="lugar">Coordenadas:</label>
         <input id="lugar" type="text">
-        <button>Inserir</button>
-    </form>
+        <button id="insert">Inserir</button>
+        <button id="clear">Limpar</button>
+    </div>
     <div id="map"></div>
     <script src="main.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ3B51C2XxpsPj2tifmNSnNiGi9fGDmBQ&callback=initMap"></script>
